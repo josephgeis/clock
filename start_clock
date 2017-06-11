@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-screen -dmS "clock" python /usr/local/share/clock/clock.py
+screen -dmS "clock" python "/usr/local/share/clock-dothat/clock.py"
 sleep 1
 screen -ls | grep clock
-if [ $? =  0 ]; then
+if [ $? = 0 ]; then
   echo "Started clock on a screen named 'clock'"
   echo "Use 'screen -r clock' to manage/quit."
   exit 0
