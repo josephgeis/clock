@@ -16,10 +16,10 @@ elif [ $yesno = "INSTALL" ]; then
 	echo "Copying clock.py to /usr/local/share/clock-dothat"
 	sudo mkdir -p "/usr/local/share/clock-dothat"
 	if [ $? -ne 0 ]; then echo "Error creating directory /usr/local/share/clock-dothat"; exit 1; fi;
-	sudo cp "clock.py" "/usr/local/share/clock-dothat"
+	sudo cp "share/clock.py" "/usr/local/share/clock-dothat"
 	if [ $? -ne 0 ]; then echo "Error copying to directory /usr/local/share/clock-dothat"; exit 1; fi;
 	echo "Copying start script to /usr/local/bin as clock"
-	sudo cp "start_clock" "/usr/local/bin/clock"
+	sudo cp "bin/clock" "/usr/local/bin/clock"
 	if [ $? -ne 0 ]; then echo "Error copying to directory /usr/local/bin"; exit 1; fi;
 	echo "Setting permissions (root:root 755)"
 	sudo chown -R root:root "/usr/local/bin/clock" "/usr/local/share/clock-dothat"
