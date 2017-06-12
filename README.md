@@ -67,8 +67,9 @@ To switch backlight colors, press the left/right buttons, when _not_ glowing.
 4. Save the file and reinstall (run `./install.sh`).
 __Note:__ Make sure you kill the existing process.
 
-### Sharing Edits
+### Sharing Edits and Feature Requests
 To share an edit, please push your changes and file a pull request.
+If you have a good idea, but don't know how to add it, file an issue. If accepted, we'll add it to the `Next Steps` project.
 
 #### Do you love this? :heart:
 If you have enjoyed this project, please leave a star or a [comment on my Say Thanks page](https://saythanks.io/to/juniorRubyist). You can also donate Bitcoin to the address below :point_down:.
