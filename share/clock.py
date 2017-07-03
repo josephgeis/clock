@@ -109,3 +109,4 @@ while clock_on:
   lcd.write(time['bcs'])
   lcd.set_cursor_position(2,2)
   lcd.write(time['month'] + ' ' + time['day'] + ', ' + time['year'])
+  
